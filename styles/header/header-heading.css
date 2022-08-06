@@ -1,0 +1,112 @@
+.page-header__title{
+    display:flex;
+    min-height: 64px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8F8;
+    padding: 24px 0 0 0;
+}
+@media (min-width:1120px){
+    .page-header__title{
+    padding-top: 42px;
+    }
+}
+
+.title__header{
+    margin: 0;
+    font-family: TT Lakes;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    color:#1B1C21;
+}
+
+.title__header::before{
+    content:" ";
+    display: inline-block;
+    position: relative;
+    top:10px;
+    margin-right:16px;
+    height: 40px;
+    width: 4px;
+    background-color: #41F6D7;
+    border-radius: 2px;
+}
+
+.title__repair{
+    display: none;   
+    text-decoration: none;
+    color:#1B1C21;
+    font-size: 16px;
+    font-family: TT Lakes;
+    text-align: right;
+   letter-spacing: -0.2px;
+   }
+   @media (min-width:1120px){
+       .title__repair{
+           display:block;
+           margin:0;
+           margin-left: auto;
+           background: url(../../images/icons/repair.svg) no-repeat center;
+           width:40px;
+           height:40px;
+       }
+    
+       .title__repair::before{
+           content: "Оставить заявку";
+           display: block;
+           position: relative;
+           width:125px;
+           height:24px;
+           right:133px;
+           font-size: 16px;
+           line-height:24px;
+           padding-top:8px;
+       }
+       .title__repair::before:active,
+       .title__repair::before:link,
+       .title__repair::before:hover,
+       .title__repair::before:visited{
+           text-decoration: none;
+           color:#1B1C21;
+       }   
+   }
+   
+   .title__checkstatus{
+       display: none;   
+       text-decoration: none;
+       color:#1B1C21;
+       font-size: 16px;
+       font-family: TT Lakes;
+       text-align: right;
+       letter-spacing: -0.2px;
+      }
+   @media (min-width:1120px){
+       .title__checkstatus{
+           display:block;
+           margin:0 32px 0 170px;
+           background: url(../../images/icons/checkstatussearch.svg) no-repeat center;
+           width:40px;
+           height:40px;
+       }
+    
+    
+       .title__checkstatus::before{
+        content: "Статус ремонта";
+        display: block;
+        position: relative;
+        width:125px;
+        height:24px;
+        right:133px;
+        font-size: 16px;
+        line-height:24px;
+        padding-top:8px;
+    }
+    .title__checkstatus::before:active,
+    .title__checkstatus::before:link,
+    .title__checkstatus::before:hover,
+    .title__checkstatus::before:visited{
+        text-decoration: none;
+        color:#1B1C21;
+    }
+   }   

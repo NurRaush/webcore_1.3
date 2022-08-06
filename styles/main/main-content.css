@@ -1,0 +1,99 @@
+.page-main__content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media(min-width:768px){
+    .page-main__content{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 24px;
+    }
+}
+@media(min-width:1120px){
+    .page-main__content{
+        flex-direction: row;
+        justify-content: space-between;
+        padding:0 28.65px 0 34px;
+    }
+}
+
+.content__container{
+    display: flex;
+    flex-direction: column;
+    padding:0 16px 20px;
+}
+@media(min-width:768px){
+    .content__container{
+        margin-right:48px;
+    }
+}
+@media(min-width:1120px){
+    .content__container{
+        margin-right:48px;
+    }
+}
+
+.content__text{
+    font-family: 'TT Lakes';
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+}
+@media(min-width:768px){
+    .content__text{
+        line-height:20px;
+    }
+}
+
+.text__part1{
+    display: none;
+}
+@media(min-width:768px){
+    .text__part1{
+        display: inline;
+    }
+}
+
+.text__part2{
+    display: none;
+}
+@media(min-width:1120px){
+    .text__part2{
+        display: inline;
+    }
+}
+
+.content__read-more{
+    border: none;
+    background-color:#F8F8F8;
+    width:100px;
+    height: 24px;
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    white-space: nowrap;
+}
+.content__read-more::before{
+    content: "";
+    display: inline-block;
+    background: url(../../images/icons/expandreadmore-icon.svg) no-repeat center;
+    height:24px;
+    width:24px;
+    position: relative;
+    top:8px;
+}
+
+
+@media(min-width:768){
+    .content__image{
+        margin-right: 25px;
+    }
+}
+
+.content__image{
+    min-height: 100vh;
+}

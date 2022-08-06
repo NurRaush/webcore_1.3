@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header/header-nav.css">
+    <link rel="stylesheet" href="styles/header/header-heading.css">
+    <link rel="stylesheet" href="styles/main/aside.css">
+    <link rel="stylesheet" href="styles/main/main-content.css">
+    <title>Document</title>
+</head>
+<body>
+<header class="page-header">
+    <nav class="page-header__navigation navigation">
+        <button class="navigation__burger"></button>
+        <span class="navigation__divider"></span>
+        <a class="navigation__logo logo" href="#">
+            <img class="logo__image" src="images/logo/Grouplogo.svg" alt="logo">     
+        </a>
+        <a href="#" class="navigation__call"> </a>
+        <a href="#" class="navigation__chat"></a>  
+        <a href="#" class="navigation__profile"></a>
+        <span class="navigation__divider"></span>
+        <a href="#" class="navigation__repair"></a>
+        <a href="#" class="navigation__checkstatus"></a>
+    </nav>
+    <div class="page-header__title title">
+        <h1 class="title__header">Услуги и сервисы</h1>
+        <a href="#" class="title__repair"></a>
+        <a href="#" class="title__checkstatus"></a>
+    </div>
+</header>
+<main class="page-main">
+    <aside class="page-main__menu menu">
+        <ul class="menu__list list">
+            <li class="list__devices--active">
+                <button class="menu__item menu__item--active">Ремонтируемые устройства</button>
+            </li>
+            <li class="list__brands">
+                <button class="menu__item menu__item--active">Ремонтируемые брэнды</button>
+            </li>
+            <li class="list__devices">
+                <button class="menu__item">Ремонтируемые устройства</button>
+            </li>
+            <li class="list__additional-services">
+                <button class="menu__item">Дополнительные услуги</button>
+            </li>
+            <li class="list__service-price">
+                <button class="menu__item">Цены на услуги</button>
+            </li>
+            <li class="list__addresses">
+                <button class="menu__item">Адреса сервисных центров</button>
+            </li>
+            <li class="list__special-prices">
+                <button class="menu__item">Специальные цены</button>
+            </li>
+            <li class="list__reviews">
+        <button class="menu__item">Отзывы</button>
+            </li>
+        </ul>
+    </aside>
+    <section class="page-main__content content">
+        <div class="content__container">
+            <article class="content__article">
+                <p class="content__text">
+                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                </p>
+                <p class="content__text text">
+                    <span class="text__part1">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span><span class="text__part2">, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span> </p>
+            </article>
+            <button class="content__read-more">Читать далее</button>
+        </div>
+        <picture content__image>
+            <source media="(min-width: 768px)" srcset="images/content-images/schedule-768.png" >
+            <source media="(min-width: 1120px)" srcset="images/content-images/schedule-1120.png" >
+            <img src="images/content-images/schedule-320.png" alt="Working schedule">
+        </picture>
+    </section>
+</main>
+
+</body>
+</html>
